@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * main.c 
- *
- **/
-
+ * main - Entry point
+ * Return:0
+ */
 
 int main(void)
 {
-	char ch="c";
-	_putchar(&ch);
-	return 0;
+char c[10] = "Holberton";
+int i = 0;
+while (i < 9)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
