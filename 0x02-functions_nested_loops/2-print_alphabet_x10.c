@@ -13,9 +13,9 @@ void print_alphabet_x10()
 	while(i<10){
 		while(c<='z'){
 			_putchar(c);
-			c++
+			c++;
 		}
-		_putchar("\n");
+		_putchar('\n');
 		i++
 	}
 
