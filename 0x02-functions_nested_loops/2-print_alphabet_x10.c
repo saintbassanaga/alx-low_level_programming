@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *alphabet_x10 check point
+ *print_alphabet_x10 check point
  *
  * Return: always 0
  **/
