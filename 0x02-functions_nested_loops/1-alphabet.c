@@ -9,7 +9,7 @@
 int main(void)
 {
 	char c='a';
-	while (c<z)
+	while (c<'z')
 	{
 		_putch(c);
 		c++;
