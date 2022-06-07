@@ -8,6 +8,7 @@
 
 int main(void)
 {
-	_putchar("c");
+	int ch="c";
+	_putchar(&ch);
 	return 0;
 }
