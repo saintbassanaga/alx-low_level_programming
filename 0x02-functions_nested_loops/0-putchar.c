@@ -7,7 +7,7 @@
 
 int main(void)
 {
-char c[8] = "_putchar";
+char c[8] = "_putchar\n";
 int i = 0;
 while (i < 7)
 {
