@@ -3,7 +3,6 @@
 /**
  *print_alphabet_x10 check point
  *
- * Return: always 0
  **/
 
 void print_alphabet_x10()
@@ -16,8 +15,7 @@ void print_alphabet_x10()
 			c++;
 		}
 		_putchar('\n');
-		i++
+		i++;
 	}
 
-	return 0;
 }
