@@ -3,7 +3,7 @@
 
 /**
  * main - check the code.
- *
+ *Expected to be cold or not !
  * Return: Always 0.
  */
 int main(void)
