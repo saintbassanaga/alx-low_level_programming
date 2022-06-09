@@ -2,7 +2,6 @@
 
 /**
  *main - check if the char is digit
- *
  *Return : Always 0
  */
 
