@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- *mul - multiply to number
- *@c: is the first integer
- *@d: is the second integer
- * Return : Always 0
+ * mul - returns the product of its parameters
+ * @a: int type number
+ * @b: int type number
+ * Return:0
  */
 
-int mul(int c, int d)
+
+int mul(int a, int b)
 {
-return(a * b);
+return (a * b);
 }
