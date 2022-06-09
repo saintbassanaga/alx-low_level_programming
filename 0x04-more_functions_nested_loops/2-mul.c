@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *mull - multiply to number
  *@c - is the first integer
