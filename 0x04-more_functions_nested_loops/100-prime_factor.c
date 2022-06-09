@@ -18,7 +18,9 @@ int main(void)
 			printf("%lu \n", n / a);
 			break;
 		}
+		
 		a--;
 	}
+	
 	return (0);
 }
