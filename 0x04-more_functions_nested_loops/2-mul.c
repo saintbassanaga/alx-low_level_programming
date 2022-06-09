@@ -6,7 +6,7 @@
  * Return : Always 0
  */
 
-int mul(int c , int d)
+int mul(int c, int d)
 {
-return(c*d);
+return(c * d);
 }
