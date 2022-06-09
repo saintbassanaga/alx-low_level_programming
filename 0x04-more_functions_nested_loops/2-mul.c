@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- *mull - multiply to number
+ *mul - multiply to number
  *@c - is the first integer
  *@d - is the second integer
  * Return : Always 0
  */
+
 
 int mul(int c, int d)
 {
