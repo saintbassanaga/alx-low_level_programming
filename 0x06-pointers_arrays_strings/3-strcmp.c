@@ -8,7 +8,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-int i;
+	int i;
 
 /**
  * We have reached the end of S1 OR we have reached the end of S2
