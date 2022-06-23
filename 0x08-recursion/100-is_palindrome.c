@@ -17,19 +17,6 @@ return (n);
 }
 
 /**
- * is_palindrome - check if a string is a palindrome
- * @s: string to check
- * Return: 0 or 1
- */
-
-int is_palindrome(char *s)
-{
-int end = last_index(s);
-
-return (check(s, 0, end - 1, end % 2));
-}
-
-/**
  * check - checker for the palindrome
  * @s: string
  * @start: int moves from right to left
@@ -49,3 +36,17 @@ else if (s[start] != s[end])
 else
 	return (check(s, start + 1, end - 1, pair));
 }
+/**
+ * is_palindrome - check if a string is a palindrome
+ * @s: string to check
+ * Return: 0 or 1
+ */
+
+int is_palindrome(char *s)
+{
+int end = last_index(s);
+
+return (check(s, 0, end - 1, end % 2));
+}
+
+
