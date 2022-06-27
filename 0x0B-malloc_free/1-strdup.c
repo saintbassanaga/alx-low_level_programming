@@ -10,7 +10,7 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i = 0;
+	unsigned int i, j;
 	char *c;
 	size_t n = sizeof(str);
 
@@ -22,8 +22,8 @@ char *_strdup(char *str)
 	if (c == NULL)
 		return (NULL);
 
-	for (i = 0; i < n; i++)
-		c[i] = str[i];
+	for (j = 0; j <= i; j++)
+		c[j] = str[j];
 
 	return (c);
 
