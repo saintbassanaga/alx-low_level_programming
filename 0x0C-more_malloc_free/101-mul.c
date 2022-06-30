@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		}
 
 	}
-	mul = atol(argv[1]) *  atol(argv[2]);
+	mul = (int)argv[1] *  (int)argv[2];
 	_putchar("%lu\n", mul);
 return (0);
 }
