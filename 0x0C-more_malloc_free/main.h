@@ -76,5 +76,3 @@ int _length(char *str)
 		i++;
 	return (i);
 }
-
-#endif
