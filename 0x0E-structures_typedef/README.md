@@ -1,1 +1,1 @@
-Beginning of Data Structure 
+C - Structures, typedef
