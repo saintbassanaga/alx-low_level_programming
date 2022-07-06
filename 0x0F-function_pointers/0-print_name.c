@@ -10,8 +10,7 @@
  */
 
 
-void print_name(char *name, void (*f)(char *))
-{
-	if (name != NULL && f != NULL)
-		*f)(name);
+__attribute__((unused)) void print_name(char *name, void (*f)(char *)) {
+    if (name != NULL && f != NULL)
+        (*f)(name);
 }
