@@ -2,9 +2,8 @@
 // Created by gcode on 7/18/22.
 //
 
-#ifndef INC_0X13_MORE_SINGLY_LINKED_LISTS_LISTS_H
-#define INC_0X13_MORE_SINGLY_LINKED_LISTS_LISTS_H
-
+#ifndef _LISTS_
+#define _LISTS_
 #include <stdlib.h>
 
 /**
@@ -43,4 +42,4 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
-#endif //INC_0X13_MORE_SINGLY_LINKED_LISTS_LISTS_H
+#endif
