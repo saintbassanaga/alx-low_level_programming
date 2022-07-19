@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_listint()- prints all the elements of a listint_t list.
+ * listint_len()- prints all the elements of a listint_t list.
  * @h : struct initialisation
  * Return: the number of nodes
  * You are allowed to use printf
