@@ -12,7 +12,7 @@ int pop_listint(listint_t **head)
 	listint_t *hnode;
 	int h;
 
-	if (temp->next == NULL)
+	if (*head == NULL)
 		return (0);
 	h = temp->n;
 	hnode = temp->next;
